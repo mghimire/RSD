@@ -1,0 +1,13 @@
+from __future__ import division
+import numpy as np
+
+L = 1000 #number of grid points in each dimension
+
+Ng = 0
+
+for i in range(L):
+    for j in range(L):
+        for k in range(L):
+            if i^2+j^2+k^2 < 1000:
+                Ng += 1
+print Ng
