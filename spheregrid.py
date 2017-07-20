@@ -1,7 +1,7 @@
 from __future__ import division
 import numpy as np
 
-L = 100 #number of grid points in each dimension
+L = 150 #number of grid points in each dimension
 
 Ng = 0
 
